@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+h1 {
+font-family: Inter;
+font-size: 30pt;
+color:blue;
+text-shadow: 2px 2px 2px yellow}
+
+p{
+	font-family: Inter;
+text-align: justify;
+text-indent: 40px;
+}
+h2{
+	font-family: Inter;
+text-align: center;
+}
+h4{
+	font-family: Inter;
+text-align: center;
+}
+h3{
+	font-family: Inter;
+text-align: center;
+}
+
+body {
+width: 80%;
+height: 100vh; 
+background-color: #a1d3ef;
+
+.container{
+width: 70%;
+heigth: 80vh;
+display: flex;
+background-color: #1E90FF;
+box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+}
+	
+.foto-homem{ 
+width: 50%;
+diplay: flex;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+}
+
+.foto-homem img{ 
+width: 32rem;
+}
+.form {
+	width: 50%;
+diplay: flex;
+justify-content: center;
+align-items: center;
+
+}
+.foto-google img {
+	width: 15rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.foto-space img {
+	width: 15rem;
+	justify-content: center;
+	align-items: center;
+}
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+.input-box input::placeholder {
+    color: #000000be;
+}
+.login-google button {
+    border: none;
+    background-color: #ADD8E6;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+	justify-content: center;
+	align-items: center;
+}
+.login-button button {
+    border: none;
+    background-color: #ADD8E6;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+	justify-content: center;
+	align-items: center;
+}
